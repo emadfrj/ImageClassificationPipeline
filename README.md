@@ -4,22 +4,20 @@
 A modular Python library for automated image classification using deep learning embeddings, supporting easy training and prediction workflows across custom datasets.
 
 ## 📂 Project Structure
-
+```
 ImageClassificationPipeline/
-│
 ├── AutoImageClassification/
 │   ├── ImageEmbedding.py         # Embeds images using EfficientNet
 │   ├── ImageClassification.py    # Defines the classifier model and training logic
 │   ├── Anomaly.py                # Detect anomalies using autoencoder recustruction error
 │   ├── Bing_Image_Download.py    # Scrap images from Bing to enrich the labeled dataset
 │   ├── __init__.py
-│
 ├── Crops_classification.ipynb    # Full workflow for Agricultural Crops Image dataset: scrap images, embed, anomaly, train, evaluate
 ├── Crops_prediction.py           # Class for loading model and predicting single image (deploy model)
 ├── Example.ipynb                 # Example usage of the trained model
 ├── requirements.txt              # Dependencies
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation
@@ -122,7 +120,6 @@ Each subfolder is treated as one category.
 - Category mapping: `Categories.csv`
 - Embedding files: `.npz` per category
 
-```
 ## 🌾 Agricultural Crops Image Classification
 
 A modular image classification system for identifying different types of agricultural crops using deep learning. The pipeline is built with reusable components for image embedding, training, and individual image prediction.
