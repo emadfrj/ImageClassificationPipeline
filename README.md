@@ -12,7 +12,7 @@ ImageClassificationPipeline/
 │   ├── Anomaly.py                # Detect anomalies using autoencoder reconstruction error
 │   ├── Bing_Image_Download.py    # Scrap images from Bing to enrich the labeled dataset
 │   ├── __init__.py
-├── Crops_classification.ipynb    # Full workflow for Agricultural Crops Image dataset: scrap images, embed, anomaly, train, evaluate
+├── Crops_classification.ipynb    # Full workflow for Agricultural Crops Image dataset
 ├── Crops_prediction.py           # Class for loading model and predicting a single image (deploy model)
 ├── requirements.txt              # Dependencies
 └── README.md
